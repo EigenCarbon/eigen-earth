@@ -1,0 +1,11 @@
+EigenEarthFoundation: https://etherscan.io/address/0x7019311300213c4287f584e7d0e46a1c27db6920
+EigenCarbonService:   https://etherscan.io/address/0xb0f45d80dac7c428d060f445ec13c5d6cf3459ef
+EigenCarbonVerifier:  https://etherscan.io/address/0x6ba9fd8f5c7563e516dd5d022fd3eb123ad50946
+EigenLandVerifier:    https://etherscan.io/address/0xcce4623d59a2ea3c1efa9de39b801312e7f83795
+EigenEarth:           https://etherscan.io/address/0xd6b938f18a7c2d69c21ced78b4b7ea2314cb2789
+Vintage2025:          https://etherscan.io/address/0xb3000539d752f5cf80606ae3b65dde9da55bdff8
+Vintage2026:          https://etherscan.io/address/0xa128e4fc62da2fec4ebf1ecb5ebc78ab65286ab2
+Vintage2027:          https://etherscan.io/address/0x28a1984a0182ca439f35cc545a19dcb8b96d918d
+Vintage2028:          https://etherscan.io/address/0xa41cb4cef27f5131dcd0bcec132bca0977d07c60
+Vintage2029:          https://etherscan.io/address/0xc5312796483f9ee506d01ab71cdbdd32e3c3b057
+Vintage2030:          https://etherscan.io/address/0x4275f3cad3c9134a90f381ce03ef17f5d28586a0

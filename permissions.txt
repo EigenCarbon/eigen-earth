@@ -1,0 +1,12 @@
+EigenEarthFoundation (DEFAULT_ADMIN_ROLE = Deployer / Foundation Owner)
+ ├── EigenEarth (DEFAULT_ADMIN_ROLE = EigenEarthFoundation)
+ │     ├── LAND_VERIFIER_ROLE → EigenLandVerifier
+ │     └── CARBON_VERIFIER_ROLE → EigenCarbonVerifier
+ │
+ ├── EigenCarbonService (DEFAULT_ADMIN_ROLE = EigenEarthFoundation)
+ │
+ ├── EigenLandVerifier (DEFAULT_ADMIN_ROLE = EigenEarthFoundation)
+ │     └── Fees + Beneficiary: Configurable by EigenEarthFoundation (admin)
+ │
+ └── EigenCarbonVerifier (DEFAULT_ADMIN_ROLE = EigenEarthFoundation)
+       └── Fees + Beneficiary: Configurable by EigenEarthFoundation (admin)
