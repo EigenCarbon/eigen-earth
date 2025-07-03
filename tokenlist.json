@@ -1,0 +1,174 @@
+{
+  "name": "EigenCarbon Vintage Token List",
+  "logoURI": "https://gateway.pinata.cloud/ipfs/bafybeigsp7m4l6aefylznqkmticwizxbrw53mbezwyjqvnss4svrxpivea",
+  "keywords": [
+    "audited",
+    "verified",
+    "carbon",
+    "vintage"
+  ],
+  "tags": {
+    "carbon": {
+      "name": "Carbon Credit",
+      "description": "Verified carbon abatement token: 1 EC token equals 1 kg of CO2 equivalent abated for the vintage year specified"
+    },
+    "vintage": {
+      "name": "Vintage Year",
+      "description": "Token tied to a specific abatement vintage year"
+    }
+  },
+  "timestamp": "2025-07-03T00:00:00+00:00",
+  "tokens": [
+    {
+      "chainId": 1,
+      "address": "0xf1730b5Be60EF13106573eD5d9bB030272aF7083",
+      "symbol": "EC2025",
+      "name": "EigenCarbon2025",
+      "decimals": 18,
+      "logoURI": "https://gateway.pinata.cloud/ipfs/bafybeihxuk7llpanvissatf74rbkstsjxmean6l522wvkxbrai2jdyuvfy",
+      "tags": [
+        "carbon",
+        "vintage"
+      ]
+    },
+    {
+      "chainId": 1,
+      "address": "0x7b6088748B7cd6c815FE4c8b05Dd0F8a3AD90B16",
+      "symbol": "EC2026",
+      "name": "EigenCarbon2026",
+      "decimals": 18,
+      "logoURI": "https://gateway.pinata.cloud/ipfs/bafybeic4jasafk5ygbkcejtyva6zntzr2gz5jahbaafbm3cqftaotatttu",
+      "tags": [
+        "carbon",
+        "vintage"
+      ]
+    },
+    {
+      "chainId": 1,
+      "address": "0x05a520D75e0C27964f4BAd0fbc782FCAab9b51d6",
+      "symbol": "EC2027",
+      "name": "EigenCarbon2027",
+      "decimals": 18,
+      "logoURI": "https://gateway.pinata.cloud/ipfs/bafybeidyhj7cxl46nztscosnme6ivntk5hggkhp3y4bdpbuaqvtzdr2k2e",
+      "tags": [
+        "carbon",
+        "vintage"
+      ]
+    },
+    {
+      "chainId": 1,
+      "address": "0xE4C2D4fC73a168677c4A58D8208F7265965b9151",
+      "symbol": "EC2028",
+      "name": "EigenCarbon2028",
+      "decimals": 18,
+      "logoURI": "https://gateway.pinata.cloud/ipfs/bafybeif26d374zp3w6uf32acnbqzsn4yl4kvfgqyqn6yz3qc7ljhrr6pii",
+      "tags": [
+        "carbon",
+        "vintage"
+      ]
+    },
+    {
+      "chainId": 1,
+      "address": "0xF3BbAECb936e1Ae9D07f34200B7452039a6b4916",
+      "symbol": "EC2029",
+      "name": "EigenCarbon2029",
+      "decimals": 18,
+      "logoURI": "https://gateway.pinata.cloud/ipfs/bafybeicez7tmx3f4nv7v22e3zz3kbh2vjtgqitixuet3tnfwr6tvyerix4",
+      "tags": [
+        "carbon",
+        "vintage"
+      ]
+    },
+    {
+      "chainId": 1,
+      "address": "0x80777A5AA2c2D6dBa569E593af217E24c0a49aC9",
+      "symbol": "EC2030",
+      "name": "EigenCarbon2030",
+      "decimals": 18,
+      "logoURI": "https://gateway.pinata.cloud/ipfs/bafybeifezgz3mif2wrcobm5gzubawhabdvwhwiy56vjukiezi5pw7sroau",
+      "tags": [
+        "carbon",
+        "vintage"
+      ]
+    }
+  ],
+  "tokenMap": {
+    "1_0xf1730b5Be60EF13106573eD5d9bB030272aF7083": {
+      "chainId": 1,
+      "address": "0xf1730b5Be60EF13106573eD5d9bB030272aF7083",
+      "symbol": "EC2025",
+      "name": "EigenCarbon2025",
+      "decimals": 18,
+      "logoURI": "https://gateway.pinata.cloud/ipfs/bafybeihxuk7llpanvissatf74rbkstsjxmean6l522wvkxbrai2jdyuvfy",
+      "tags": [
+        "carbon",
+        "vintage"
+      ]
+    },
+    "1_0x7b6088748B7cd6c815FE4c8b05Dd0F8a3AD90B16": {
+      "chainId": 1,
+      "address": "0x7b6088748B7cd6c815FE4c8b05Dd0F8a3AD90B16",
+      "symbol": "EC2026",
+      "name": "EigenCarbon2026",
+      "decimals": 18,
+      "logoURI": "https://gateway.pinata.cloud/ipfs/bafybeic4jasafk5ygbkcejtyva6zntzr2gz5jahbaafbm3cqftaotatttu",
+      "tags": [
+        "carbon",
+        "vintage"
+      ]
+    },
+    "1_0x05a520D75e0C27964f4BAd0fbc782FCAab9b51d6": {
+      "chainId": 1,
+      "address": "0x05a520D75e0C27964f4BAd0fbc782FCAab9b51d6",
+      "symbol": "EC2027",
+      "name": "EigenCarbon2027",
+      "decimals": 18,
+      "logoURI": "https://gateway.pinata.cloud/ipfs/bafybeidyhj7cxl46nztscosnme6ivntk5hggkhp3y4bdpbuaqvtzdr2k2e",
+      "tags": [
+        "carbon",
+        "vintage"
+      ]
+    },
+    "1_0xE4C2D4fC73a168677c4A58D8208F7265965b9151": {
+      "chainId": 1,
+      "address": "0xE4C2D4fC73a168677c4A58D8208F7265965b9151",
+      "symbol": "EC2028",
+      "name": "EigenCarbon2028",
+      "decimals": 18,
+      "logoURI": "https://gateway.pinata.cloud/ipfs/bafybeif26d374zp3w6uf32acnbqzsn4yl4kvfgqyqn6yz3qc7ljhrr6pii",
+      "tags": [
+        "carbon",
+        "vintage"
+      ]
+    },
+    "1_0xF3BbAECb936e1Ae9D07f34200B7452039a6b4916": {
+      "chainId": 1,
+      "address": "0xF3BbAECb936e1Ae9D07f34200B7452039a6b4916",
+      "symbol": "EC2029",
+      "name": "EigenCarbon2029",
+      "decimals": 18,
+      "logoURI": "https://gateway.pinata.cloud/ipfs/bafybeicez7tmx3f4nv7v22e3zz3kbh2vjtgqitixuet3tnfwr6tvyerix4",
+      "tags": [
+        "carbon",
+        "vintage"
+      ]
+    },
+    "1_0x80777A5AA2c2D6dBa569E593af217E24c0a49aC9": {
+      "chainId": 1,
+      "address": "0x80777A5AA2c2D6dBa569E593af217E24c0a49aC9",
+      "symbol": "EC2030",
+      "name": "EigenCarbon2030",
+      "decimals": 18,
+      "logoURI": "https://gateway.pinata.cloud/ipfs/bafybeifezgz3mif2wrcobm5gzubawhabdvwhwiy56vjukiezi5pw7sroau",
+      "tags": [
+        "carbon",
+        "vintage"
+      ]
+    }
+  },
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "patch": 0
+  }
+}
