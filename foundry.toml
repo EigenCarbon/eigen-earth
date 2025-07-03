@@ -1,0 +1,32 @@
+[profile.default]
+src = "src"
+out = "out"
+libs = ["lib"]
+
+test = "test"
+cache = true
+cache_path = "cache"
+auto_install = false
+
+
+remappings = [
+    # OZ‐Upgradeable (for ERC721Upgradeable, Initializable, UUPSUpgradeable, etc.)
+    "@openzeppelin/contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/contracts/",
+
+    # OZ‐Core (for ERC1967Proxy, TransparentUpgradeableProxy, etc.)
+    "@openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/",
+
+    # forge‐std (for Test.sol, Script.sol, etc.)
+    "forge-std/=lib/forge-std/src/",
+
+    # your own interfaces
+    "interfaces/=src/interfaces/"
+]
+
+solc_version   = "0.8.22"
+optimizer = true
+optimizer_runs = 200
+via_ir         = true
+
+
+# See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options
