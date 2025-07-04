@@ -24,7 +24,9 @@ We can make an **extremely strong promise** that **1 coin = 1 kg of verified car
 
 ## 🧠 Approach Taken
 
-✅ **Modular Design:**The system is split into distinct components:
+✅ **Modular Design:**
+
+The system is split into distinct components:
 
 - `EigenEarthFoundation`: Coordinates deployment and management of sub-contracts.
 - `EigenEarth`: Core land asset registry (ERC721).
