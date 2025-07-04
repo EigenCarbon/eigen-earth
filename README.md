@@ -1,6 +1,6 @@
 # 🌍 EigenEarth — On-Chain Land & Carbon Credits Management
 
-**EigenEarth** is a fully on-chain framework for managing land assets and carbon abatement credits using smart contracts.  
+**EigenEarth** is a fully on-chain framework for managing land assets and carbon abatement credits using smart contracts.
 This project leverages Ethereum's decentralization and transparency to provide a robust, verifiable system for land registry, carbon services, and vintage carbon coin issuance.
 
 ---
@@ -8,14 +8,15 @@ This project leverages Ethereum's decentralization and transparency to provide a
 ## 🚀 What is EigenEarth?
 
 EigenEarth is a suite of Solidity contracts that enables:
+
 - 📌 **Registration of land assets** with detailed metadata (e.g. title, spatial data, H3 index)
 - 🌱 **Issuance of carbon abatement credits** linked to land and vintage year
 - 🔒 **Verifiable roles and permissions** for land and carbon verifiers
 - ⚡ **Transparent on-chain fees** and commission flows
-- 🪙 **ERC20 vintage carbon coins** for each carbon abatement vintage (e.g., 2025–2030) - these are freely tradeable to set the market price for carbon - a carbon credit is granted when the coin is burned and a certificate is issued - this is on chain irrefutable proof
+- 🪙 **ERC20 vintage carbon coins** for each carbon abatement vintage (e.g., 2025–2030) - these are freely tradeable to set the market price for carbon
+- 🔥 A **carbon credit is granted** when the coin is **burned** and a certificate is issued - this is on chain irrefutable proof of a specific amount of carbon abatement for a specific time period against a specific piece of land - complete transparency, total authenticity, irrefutable verifiability
 
 All contracts are deployed to Ethereum Mainnet and verified on Etherscan for transparency.
-
 
 We can make an **extremely strong promise** that **1 coin = 1 kg of verified carbon abatement** for the specific vintage year. This guarantee is irrefutable, transparent, and ascertainable because it is enforced by the smart contract logic and fully visible on-chain.
 
@@ -23,24 +24,27 @@ We can make an **extremely strong promise** that **1 coin = 1 kg of verified car
 
 ## 🧠 Approach Taken
 
-✅ **Modular Design:**  
-The system is split into distinct components:
+✅ **Modular Design:**The system is split into distinct components:
+
 - `EigenEarthFoundation`: Coordinates deployment and management of sub-contracts.
 - `EigenEarth`: Core land asset registry (ERC721).
 - `EigenCarbonService`: Manages carbon abatement issuance and linkage to land.
 - `EigenVintageCarbonCoin`: ERC20 tokens for each vintage year.
 - `EigenLandVerifier` / `EigenCarbonVerifier`: Enforce integrity through role-based verification.
 
-✅ **Gas Efficiency:**  
+✅ **Gas Efficiency:**
+
 - Deployment split into smaller contracts to stay under EIP-170 size limits.
 - Use of proxies for upgradability while keeping logic contracts clean.
 
-✅ **Transparency & Auditability:**  
+✅ **Transparency & Auditability:**
+
 - All contract code is open source.
 - All deployments are verified on Etherscan.
 - Fees, beneficiaries, and commission parameters are visible on-chain.
 
-✅ **Extensibility:**  
+✅ **Extensibility:**
+
 - New vintage carbon coins can be deployed without impacting existing infrastructure.
 - Compatible with DAO governance and other community-controlled systems.
 
@@ -48,16 +52,16 @@ The system is split into distinct components:
 
 ## 🌎 Why this is a good idea
 
-🌟 **Immutable proof of carbon abatement**  
+🌟 **Immutable proof of carbon abatement**
 Every vintage carbon coin is backed by specific land and verified abatement, with provenance on-chain.
 
-🌟 **Solves greenwashing**  
+🌟 **Solves greenwashing**
 Since carbon coins represent actual abatement linked to registered land and vintages, it eliminates double counting and unverifiable claims.
 
-🌟 **Market ready & DeFi friendly**  
+🌟 **Market ready & DeFi friendly**
 Vintage carbon coins are ERC20s — they can be traded, used in DeFi protocols, and integrated into carbon offset marketplaces.
 
-🌟 **Global transparency**  
+🌟 **Global transparency**
 No hidden ledgers. No manual reconciliation. Everything from land registration to carbon issuance is visible on Ethereum.
 
 ---
@@ -71,8 +75,8 @@ No hidden ledgers. No manual reconciliation. Everything from land registration t
 
 ---
 
-| Contract                     | Address                                      | Etherscan                                                                       |
-| ---------------------------- | -------------------------------------------- | ------------------------------------------------------------------------------- |
+| Contract                           | Address                                        | Etherscan                                                                    |
+| ---------------------------------- | ---------------------------------------------- | ---------------------------------------------------------------------------- |
 | **EigenEarthFoundation**     | `0xFd58357744B7dA0839Fcb9A0a36F08a96206Dbf0` | [View](https://etherscan.io/address/0xFd58357744B7dA0839Fcb9A0a36F08a96206Dbf0) |
 | **EigenEarth Proxy**         | `0x8793Da43c8A7cfb4Bc6118Dd5b769B90611457e4` | [View](https://etherscan.io/address/0x8793Da43c8A7cfb4Bc6118Dd5b769B90611457e4) |
 | **EigenCarbonService Proxy** | `0x0Fd26cE062B84f84685ECf042F6a129a8EAa6dA0` | [View](https://etherscan.io/address/0x0Fd26cE062B84f84685ECf042F6a129a8EAa6dA0) |
@@ -101,4 +105,3 @@ No hidden ledgers. No manual reconciliation. Everything from land registration t
 MIT License — open source and community-driven.
 
 ---
-
