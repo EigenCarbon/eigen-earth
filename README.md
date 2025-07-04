@@ -95,6 +95,14 @@ No hidden ledgers. No manual reconciliation. Everything from land registration t
 
 🌐 **Website:** [https://eigencarbon.xyz](https://eigencarbon.xyz)
 
+## 🍃 Token List
+
+The official EigenCarbon token list is published and accessible at the following URL:
+
+[https://gateway.pinata.cloud/ipfs/bafkreicb2byvdzbtiz2kfhufnzvjetyc75zztdwtwcswyxjkwkpxsx6jny](https://gateway.pinata.cloud/ipfs/bafkreicb2byvdzbtiz2kfhufnzvjetyc75zztdwtwcswyxjkwkpxsx6jny)
+
+This token list includes all current EigenCarbon vintages and metadata, and is used by decentralized exchanges, wallets, and integrators for token discovery and trading.
+
 ## 🛠️ Technologies
 
 - Solidity / Ethereum
